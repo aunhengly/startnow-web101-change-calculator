@@ -1,0 +1,80 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Change Calculator</title>
+      <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+      <!-- Write your markup here -->
+      <table border = "0">
+      
+        <tr><h1>Change Calculator</h1></tr>
+        <tr>
+          <th colspan="2">How much is due for the sale?</th>
+          <th colspan="2">How much has the customer given you?</th>
+        </tr>
+        <tr>
+          <td colspan="2" class="text-center"><input id="amount-due" type="number"/></td>
+          <td colspan="2" class="text-center"><input id="amount-received" type="number"/></td>
+        </tr>
+        
+        <tr><th colspan="4" align="left"><h2>The Change:</h2></th></tr>
+        <tr>
+          <th colspan="4"><p>Total amount for the change:</p></th>
+        </tr>
+
+        <tr>
+          <td colspan="4"><p class="text-center" id="balance-output"></p></td>
+        </tr>
+        <tr>
+          <th colspan="2"><p>US Dollar Note</p></th>
+          <th colspan="2"><p>Amount</p></th>
+        </tr>
+
+        <tr>
+          <td colspan="2" class="text-center" style="height: 50px"><img class="dollar-note" name="50dollar" src="http://c8.alamy.com/comp/C4YBEJ/50-fifty-dollar-dollars-bill-note-bills-notes-C4YBEJ.jpg"></td>
+          <td colspan="2"><p class="text-center" id="50-dollars-output"></p></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="text-center" style="height: 50px"><img class="dollar-note" name="20dollar" src="http://c8.alamy.com/comp/C4YBD5/20-twenty-dollar-dollars-bill-note-bills-notes-C4YBD5.jpg"></td>
+          <td colspan="2"><p class="text-center" id="20-dollars-output"></p></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="text-center" style="height: 50px"><img class="dollar-note" name="10dollar" src="http://c8.alamy.com/comp/HF5AXF/us-10-dollar-bill-HF5AXF.jpg"></td>
+          <td colspan="2"><p class="text-center" id="10-dollars-output"></p></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="text-center" style="height: 50px"><img class="dollar-note" name="5dollar" src="http://c8.alamy.com/comp/C4YARM/five-5-dollar-dollars-bill-note-bills-notes-C4YARM.jpg"></td>
+          <td colspan="2"><p class="text-center" id="5-dollars-output"></p></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="text-center" style="height: 50px"><img class="dollar-note" name="2dollar" src="http://c8.alamy.com/comp/DHB1RM/us-2-dollar-bill-DHB1RM.jpg"></td>
+          <td colspan="2"><p class="text-center" id="2-dollars-output"></p></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="text-center" style="height: 50px"><img class="dollar-note" name="1dollar" src="http://c8.alamy.com/comp/C4YANJ/1-one-dollar-dollars-bill-note-bills-notes-C4YANJ.jpg"></td>
+          <td colspan="2"><p class="text-center" id="1-dollars-output"></p></td>
+        </tr>
+
+        <tr>
+          <th>Quarters</th>
+          <th>Dimes</th>
+          <th>Nickles</th>
+          <th>Pennies</th>
+        </tr>
+
+        <tr>
+          <td class="coins"><p id="quarters-output"></p></td>
+          <td class="coins"><p id="dimes-output"></p></td>
+          <td class="coins"><p id="nickels-output"></p></td>
+          <td class="coins"><p id="pennies-output"></p></td>
+        </tr>
+      </table><br>
+      <button id = "calculate-change">Calculate The Change</button>
+      
+      <!-- Don't forget to add your <script> tag here -->
+      <script src="main.js" charset="utf-8"></script>
+    </body>
+  </html>
+  
+  
